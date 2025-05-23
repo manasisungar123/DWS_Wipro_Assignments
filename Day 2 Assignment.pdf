@@ -1,0 +1,39 @@
+
+DAY 2 ASSIGNMENT TOPICS:
+----------------
+
+Access context in MSI are of three types:- 
+User Access:-Limited access to the user profile and runs under the currently loged-in users credentials and within their user profile.
+ Admin Context:- Requires admin privilages for system-wide changes.
+ System Context:-Full system wide access.
+
+Logon Script -Leverage Active Setup using MSI:- It is used to run specifc actions like copying files. We can also use active setup for copying the configuration files from a per machine location.
+ -Creating and Assigning logon Script:- Logon Script can be assigned to a individual user or a group of users. The script context can be the batch files,Powershell script and other Language Script.
+ -Consider Deployment Strategies:- We can deploy the logon Script using Group Policy,assigning them to specific organization unit or user account. we can choose a language suitable for our needs batch files are simpler while powershell offers more advanced capabilities.
+
+Benefit of Window 11:- 
+-Better Multitasking Features. 
+-Modern User Interface. 
+-Performance Enhancements. 
+-Gaming Improvements.
+
+Benefit of Windows 10:- 
+-Familiar and User-Friendly Interface.
+ -Performance and Stability. 
+-Productivity Tools. 
+-Gaming Capabilities.
+
+Key Considerations While Using an AppPack are: Purpose & Relevance.
+ Security.
+ Customization.
+ Storage and Performance.
+
+The Windows tools for Debugging Logon Sessions are:
+
+Process Explorer:Watch real-time process tree and user sessions.
+ PsExec: Run commands remotely as SYSTEM for deeper inspection.
+ PsTools: Manage and monitor remote or local systems via command-line utilities. RegMon: Monitor real-time registry activity. Sysmon: Log and analyze detailed system activity for security and diagnostics.
+ Whois:Check IP ownership for remote logins.
+
+Registry Keys(HKEY): HKEY_LOCAL_MACHINE (HKLM): System-wide settings for all users, including hardware and software configs.
+ HKEY_CURRENT_USER (HKCU): Settings for the currently logged-in user.
