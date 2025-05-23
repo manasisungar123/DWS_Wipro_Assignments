@@ -1,5 +1,5 @@
-# Dws_Wipro_Assignment_Day1
-
+# Dws_Wipro_Assignment
+Day 1
              Application Packaging
 
 -->Application Packaging is the process of preparing software application for distributing and deployment,typically by bundling all necessary files,configuration and dependencies into a    standardized package.
